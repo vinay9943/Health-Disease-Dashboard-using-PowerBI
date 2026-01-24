@@ -20,51 +20,51 @@ The objective of this project is to develop an interactive and user-friendly Hea
 # Process 
 # General Data Analysis
 1.	What is the demographic breakdown of the dataset? <br>
-•	  Visual: Bar chart for gender distribution and histogram for age groups.
-•	  DAX: Create a calculated column for Age Grouping:
-2.	What percentage of patients have heart disease?
-•	Visual: Donut chart to show heart disease cases vs. non-cases.
-•	DAX: Create a calculated measure for Heart Disease Percentage:
-3.	What is the average cholesterol level across age groups and genders?
-•	Visual: Clustered bar chart with cholesterol averages for each gender and age group.
-•	DAX: Measure for Average Cholesterol:
-4.	What is the distribution of blood pressure levels?
-•	Visual: Histogram for blood pressure levels.
-•	DAX: Calculated column for Blood Pressure Category:
-5.	How many patients are flagged as high risk?
-•	Visual: KPI card with the total count of high-risk individuals.
-•	DAX: Calculated column for High Risk Flag:
-# Risk Factor Insights
-1.	What is the relationship between cholesterol level and triglyceride level?
-•	Visual: Scatter plot with cholesterol level on the X-axis and triglycerides on the Y-axis, categorized by heart disease status.
-2.	How does BMI correlate with the occurrence of heart disease?
-•	Visual: Boxplot for BMI categorized by heart disease status.
-3.	What is the impact of family history on heart disease?
-•	Visual: Stacked column chart showing heart disease cases by family history.
-•	DAX: Measure for Family History Contribution:
-4.	What percentage of patients smoke or consume alcohol, and how does it affect heart disease?
-•	Visual: Pie charts for smoking and alcohol consumption, segmented by heart disease status.
-5.	What is the average sleep duration for different risk categories?
-•	Visual: Bar chart for sleep hours across risk groups.
-•	DAX: Measure for Average Sleep Hours:
+•	  Visual: Bar chart for gender distribution and histogram for age groups.<br>
+•	  DAX: Create a calculated column for Age Grouping <br>
+2.	What percentage of patients have heart disease?<br>
+•	Visual: Donut chart to show heart disease cases vs. non-cases.<br>
+•	DAX: Create a calculated measure for Heart Disease Percentage:<br>
+3.	What is the average cholesterol level across age groups and genders?<br>
+•	Visual: Clustered bar chart with cholesterol averages for each gender and age group.<br>
+•	DAX: Measure for Average Cholesterol<br>
+4.	What is the distribution of blood pressure levels?<br>
+•	Visual: Histogram for blood pressure levels.<br>
+•	DAX: Calculated column for Blood Pressure Category:<br>
+5.	How many patients are flagged as high risk?<br>
+•	Visual: KPI card with the total count of high-risk individuals.<br>
+•	DAX: Calculated column for High Risk Flag<br>
+# Risk Factor Insights<br>
+1.	What is the relationship between cholesterol level and triglyceride level?<br>
+•	Visual: Scatter plot with cholesterol level on the X-axis and triglycerides on the Y-axis, categorized by heart disease status.<br>
+2.	How does BMI correlate with the occurrence of heart disease?<br>
+•	Visual: Boxplot for BMI categorized by heart disease status.<br>
+3.	What is the impact of family history on heart disease?<br>
+•	Visual: Stacked column chart showing heart disease cases by family history.<br>
+•	DAX: Measure for Family History Contribution:<br>
+4.	What percentage of patients smoke or consume alcohol, and how does it affect heart disease?<br>
+•	Visual: Pie charts for smoking and alcohol consumption, segmented by heart disease status.<br>
+5.	What is the average sleep duration for different risk categories?<br>
+•	Visual: Bar chart for sleep hours across risk groups.<br>
+•	DAX: Measure for Average Sleep Hours:<br>
 # Temporal Analysis
-1.	How does heart disease incidence change across different age ranges?
-•	Visual: Line chart showing the percentage of heart disease cases per age group.
-2.	What is the trend of blood pressure levels across different genders?
-•	Visual: Line chart comparing blood pressure levels over time (if time data exists).
+1.	How does heart disease incidence change across different age ranges?<br>
+•	Visual: Line chart showing the percentage of heart disease cases per age group.<br>
+2.	What is the trend of blood pressure levels across different genders?<br>
+•	Visual: Line chart comparing blood pressure levels over time (if time data exists).<br>
 # KPI Tracking and Comparisons
-1.	What percentage of patients meet healthy metrics (cholesterol <200, BP <120/80)?
-•	Visual: KPI card showing the percentage of patients meeting the healthy criteria.
-•	DAX: Measure for Healthy Metric Compliance:
-2.	What is the distribution of triglyceride levels among patients with high LDL cholesterol?
-•	Visual: Boxplot of triglycerides, filtered by high LDL cholesterol levels.
-3.	How do stress and sleep levels affect the risk of heart disease?
-•	Visual: Matrix with stress levels as rows, sleep hours as columns, and heart disease percentage as values.
-•	DAX: Measure for Stress-Sleep Interaction:
+1.	What percentage of patients meet healthy metrics (cholesterol <200, BP <120/80)?<br>
+•	Visual: KPI card showing the percentage of patients meeting the healthy criteria.<br>
+•	DAX: Measure for Healthy Metric Compliance:<br>
+2.	What is the distribution of triglyceride levels among patients with high LDL cholesterol?<br>
+•	Visual: Boxplot of triglycerides, filtered by high LDL cholesterol levels.<br>
+3.	How do stress and sleep levels affect the risk of heart disease?<br>
+•	Visual: Matrix with stress levels as rows, sleep hours as columns, and heart disease percentage as values.<br>
+•	DAX: Measure for Stress-Sleep Interaction:<br>
 
 # Next Steps
-1.	Data Cleaning: Ensure null values in critical columns are handled.
-2.	Dashboard Design: Use slicers for gender, age groups, and risk factors for interactivity.
+1.	Data Cleaning: Ensure null values in critical columns are handled.<br>
+2.	Dashboard Design: Use slicers for gender, age groups, and risk factors for interactivity.<br>
 
 
 
