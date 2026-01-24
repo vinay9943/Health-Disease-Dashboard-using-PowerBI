@@ -20,8 +20,8 @@ The objective of this project is to develop an interactive and user-friendly Hea
 # Process 
 # General Data Analysis
 1.	What is the demographic breakdown of the dataset?
-•	Visual: Bar chart for gender distribution and histogram for age groups.
-•	DAX: Create a calculated column for Age Grouping:
+•	  Visual: Bar chart for gender distribution and histogram for age groups.
+•	  DAX: Create a calculated column for Age Grouping:
 2.	What percentage of patients have heart disease?
 •	Visual: Donut chart to show heart disease cases vs. non-cases.
 •	DAX: Create a calculated measure for Heart Disease Percentage:
